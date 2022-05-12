@@ -1,5 +1,5 @@
 Facter.add('yahoo') do
-  setcode do 
+  setcode do
     'mytest'
   end
 end
