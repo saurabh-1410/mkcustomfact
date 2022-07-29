@@ -5,7 +5,7 @@
 # @example
 #   include mkcustomfact::packagesample
 class mkcustomfact::packagesample {
-  package { 'docker-ce':
-    ensure => '18.01.0',
+  package { 'openssh':
+    ensure => '8.7',
   }
 }
