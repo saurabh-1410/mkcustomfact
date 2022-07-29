@@ -6,6 +6,6 @@
 #   include mkcustomfact::packagesample
 class mkcustomfact::packagesample {
   package { 'docker-ce':
-    ensure => '18.09.2',
+    ensure => '17.03.3',
   }
 }
