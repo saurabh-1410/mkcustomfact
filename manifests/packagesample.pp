@@ -4,8 +4,8 @@
 #
 # @example
 #   include mkcustomfact::packagesample
-class mkcustomfact::packagesample {
+#class mkcustomfact::packagesample {
   #package { 'openssh':
   #  ensure => '8.7',
   #}
-}
+#}
