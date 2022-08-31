@@ -20,7 +20,7 @@ end
 
 Facter.add('puppetconfstat') do
   setcode do
-    ENV['TZ'] = 'UTC'
+    ENV['TZ'] = 'Australia'
     Facter::Core::Execution.execute('stat -c %z /etc/puppetlabs/puppet/puppet.conf | cut -d"." -f1')
   end
 end
