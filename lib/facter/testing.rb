@@ -17,3 +17,9 @@ Facter.add(:factertestingwindows) do
     Facter::Core::Execution.execute('echo Hello', timeout: 10)
   end
 end
+
+Facter.add('puppetconfstat') do
+  setcode do
+    Facter::Core::Execution.execute('stat -c %z /etc/puppetlabs/puppet/puppet.conf | cut -d"." -f1')
+  end
+end
