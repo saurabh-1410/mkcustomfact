@@ -26,4 +26,4 @@
 #   }
 # Learn more at: https://puppet.com/docs/bolt/0.x/writing_tasks.html#ariaid-title11
 #
-echo "This task is executed successfully."; 
+echo "This task is executed successfully: -kumar"; 
