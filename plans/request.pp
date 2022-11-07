@@ -3,6 +3,6 @@ plan mkcustomfact::request (
 ) {
   # $api_key = lookup('api_key')
   #$result  = run_task('init', $targets, 'api_key' => $api_key)
-  $result  = run_task(' mkcustomfact', $targets)
+  $result  = run_task('mkcustomfact', $targets)
   return $result
 }
