@@ -6,8 +6,8 @@ defaults:  # Used for any hierarchy level that omits these keys.
   data_hash: yaml_data  # Use the built-in YAML backend.
 
 #plan_hierarchy:
-# - name: "Static data"
-#    path: "static.yaml"
+ - name: "Static data"
+   path: "static.yaml"
 
 hierarchy:
   - name: "osfamily/major release"
