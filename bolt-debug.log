@@ -1,7 +1,4 @@
-2022-11-07T16:23:13.941024 INFO   [main] [Bolt::Logger] Loaded project from '/etc/puppetlabs/code/environments/production/modules/mkcustomfact'
-2022-11-07T16:23:13.941656 DEBUG  [main] [Bolt::Executor] Started with 100 max thread(s)
-2022-11-07T16:23:13.942203 DEBUG  [main] [Bolt::PAL] Loading modules from /opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.26.1/bolt-modules:/etc/puppetlabs/code/environments/production/modules/mkcustomfact/modules:/etc/puppetlabs/code/environments/production/modules/mkcustomfact/.modules:/opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.26.1/modules
-2022-11-07T16:23:13.942646 DEBUG  [main] [Bolt::Inventory] Loaded inventory from /etc/puppetlabs/code/environments/production/modules/mkcustomfact/inventory.yaml
-2022-11-07T16:23:14.244598 DEBUG  [] [Bolt::Inventory::Inventory] Did not find config for localhost in inventory
-2022-11-07T16:23:14.251183 INFO   [event-publisher] [Bolt::Outputter::Logger] Starting: plan mkcustomfact::request
-2022-11-07T16:23:14.254212 INFO   [event-publisher] [Bolt::Outputter::Logger] Finished: plan mkcustomfact::request in 0.01 sec
+2022-11-18T10:16:08.273550 INFO   [main] [Bolt::Logger] Loaded project from '/Users/saurabh.dikshit/testcode/mkcustomfact'
+2022-11-18T10:16:08.431942 DEBUG  [main] [Bolt::Executor] Started with 36 max thread(s)
+2022-11-18T10:16:10.279293 DEBUG  [main] [Bolt::PAL] Loading modules from /opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.24.0/bolt-modules:/Users/saurabh.dikshit/testcode/mkcustomfact/modules:/Users/saurabh.dikshit/testcode/mkcustomfact/.modules:/opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.24.0/modules
+2022-11-18T10:16:10.281085 DEBUG  [main] [Bolt::Inventory] Loaded inventory from /Users/saurabh.dikshit/testcode/mkcustomfact/inventory.yaml
