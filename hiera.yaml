@@ -1,9 +1,5 @@
 ---
 version: 5
 plan_hierarchy:
- - name: "Static data"
-   path: "static.yaml"
-
- - name: "test data"
-   path: "test.yaml"
-
+ - name: "common data"
+   path: "common.yaml"
