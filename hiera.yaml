@@ -3,3 +3,5 @@ version: 5
 plan_hierarchy:
  - name: "common data"
    path: "common.yaml"
+ - name: "test data"
+   path: "test.yaml"
