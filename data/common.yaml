@@ -1,2 +1,3 @@
 ---
 mkcustomfact::second_key: "ticket50140"
+mkcustomfact::api_key: "12345"
